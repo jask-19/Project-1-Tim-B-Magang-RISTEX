@@ -86,3 +86,7 @@ body {
   margin: 5px 15px;
   text-align: center;
 }
+
+#home-menu a {
+  color: #0492d2;
+}
