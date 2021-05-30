@@ -106,7 +106,7 @@ body {
   width: 70%;
   border-radius: 25px;
   background-color: white;
-  padding : 20px;
+  padding: 20px;
 }
 
 .row:after {
@@ -123,13 +123,16 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
 }
 
-.modal-container #modal-toggle:hover ~ button { background: #1E824C; }
+.modal-container #modal-toggle:hover ~ button {
+  background: #1e824c;
+}
 
 .modal-container #modal-toggle:checked {
   width: 100vw;
@@ -169,11 +172,18 @@ body {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 400px) {
-
-.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content { left: 0; }
+  .modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content {
+    left: 0;
+  }
 }
 
-.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close:hover { color: #333; }
+.modal-container
+  #modal-toggle:checked
+  ~ .modal-backdrop
+  .modal-content
+  .modal-close:hover {
+  color: #333;
+}
 
 .modal-container {
   margin: 0 auto;
@@ -189,7 +199,7 @@ body {
   width: 160px;
   height: 50px;
   line-height: 50px;
-  background: #446CB3;
+  background: #446cb3;
   font-size: 15px;
   border: 0;
   border-radius: 3px;
